@@ -83,7 +83,7 @@ There are 3 different clusterings: 4, 5, and 10 clusters. In addition to biplots
 |:--------:|:--------:|:---------:|
 |[![radial_dendrogram_k4.pdf](figures/radial_dendrogram_k4.png)](hierarchical_dendrograms/radial_dendrogram_k4.pdf)|[![radial_dendrogram_k5.pdf](figures/radial_dendrogram_k5.png)](hierarchical_dendrograms/radial_dendrogram_k5.pdf)|[![radial_dendrogram_k10.pdf](figures/radial_dendrogram_k10.png)](hierarchical_dendrograms/radial_dendrogram_k10.pdf)|
 
-These should be reviewed to determine if the cluster assignments make sense and which clustering should be used (4 vs 5 vs 10).
+These should be reviewed to determine if the cluster assignments make sense and which clustering should be used (4 vs 5 vs 10). Also, it's super interesting that the model -- which did not have any knowledge of the language or project of any of the wikis -- relied only on summary stats about the wikis and in many cases created clusters of projects with the same language and same-family language. (So it's cool to see qualitative similarity match quantiative similarity, I think. – MP)
 
 |4 clusters|5 clusters|10 clusters|
 |:--------:|:--------:|:---------:|
